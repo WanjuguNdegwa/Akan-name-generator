@@ -8,13 +8,11 @@ function getAkanName() {
     const femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"]
 
     const gender = document.getElementById("gender").value
+    const result = document.getElementById("result")
 
     if (gender === "male") {
-
+        result.innerHTML = "Your Akan name is: " + maleNames[dayOfWeek]
     } else if (gender === "female") {
-
+        result.innerHTML = "Your Akan name is: " + femaleNames[dayOfWeek]
     }
-
-
-    console.log(gender);
 }
