@@ -5,5 +5,8 @@ function getAkanName() {
 
     const maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"]
     const femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"]
-    console.log(dayOfWeek);
+
+    const gender = document.getElementById("gender").value
+
+    console.log(gender);
 }
