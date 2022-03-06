@@ -1,0 +1,15 @@
+.main-text {
+    padding: 20px 10px;
+    margin: 20px 0px;
+    background-color: grey;
+    color: white;
+    border-radius: 20px;
+}
+
+footer {
+    font-size: 10px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
