@@ -4,15 +4,20 @@ function getAkanName() {
     const date = new Date(birthday);
     const dayOfWeek = date.getDay();
 
-    const maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"]
-    const femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"]
+    if (birthday === "") {
+        alert("Please input a valid date")
+    } else {
 
-    const gender = document.getElementById("gender").value
-    const result = document.getElementById("result")
+        const maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"]
+        const femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"]
 
-    if (gender === "male") {
-        result.innerHTML = "Your Akan name is: " + maleNames[dayOfWeek]
-    } else if (gender === "female") {
-        result.innerHTML = "Your Akan name is: " + femaleNames[dayOfWeek]
+        const gender = document.getElementById("gender").value
+        const result = document.getElementById("result")
+
+        if (gender === "male") {
+            result.innerHTML = "Your Akan name is: " + maleNames[dayOfWeek]
+        } else if (gender === "female") {
+            result.innerHTML = "Your Akan name is: " + femaleNames[dayOfWeek]
+        }
     }
-}
+} 
