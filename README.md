@@ -3,7 +3,7 @@
 ## Description
 This is a web application that takes one's birthday and calculates the day of the week they were born and then depending on their gender, outputs their [Akan Name](https://en.wikipedia.org/wiki/Akan_names).
 
-[Link to live site](https://wanjugundegwa.github.io/portfolio/)
+[Link to live site](https://wanjugundegwa.github.io/Akan-name-generator/)
 
 ## Behaviour Driven Development
 
