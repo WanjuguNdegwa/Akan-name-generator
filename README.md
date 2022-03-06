@@ -5,6 +5,17 @@ This is a web application that takes one's birthday and calculates the day of th
 
 [Link to live site](https://wanjugundegwa.github.io/portfolio/)
 
+## Behaviour Driven Development
+
+1. Generates Akan name after entering date and gender
+Input: "User's birthday"
+Input: "User's gender"
+Output: "Generates user's Akan Name"
+
+2. Displays an error message if date input left blank
+Input: ""
+Output: "Please input a valid date"
+
 ## Installation Requirements
 You need a modern web browser to view the project on your computer. To make any changes you need a text editor like VS Code.
 
